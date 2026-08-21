@@ -1,3 +1,13 @@
+"""
+Study Visit Tracker V8.1
+Built from the uploaded working V8 app.
+
+V8.1 preparation:
+- preserves the existing working interface and workflow
+- adds a safe configuration layer for Supabase
+- keeps demo/local operation available until the Supabase schema is verified
+"""
+
 
 import json, re, sqlite3
 from pathlib import Path
