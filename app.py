@@ -330,7 +330,7 @@ else:
  pages=["Dashboard","My Work Queue","Participants","Visits","Review","Reports","Administration"]
 
 st.sidebar.title("Study Visit Tracker — DEMO")
- st.sidebar.warning("DEMO DATA ONLY — no real participant data")
+st.sidebar.warning("DEMO DATA ONLY — no real participant data")
 st.sidebar.caption(f"{user['name']} · {user['role']}")
 if st.sidebar.button("Sign out"):
  st.session_state.clear(); st.rerun()
